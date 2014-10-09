@@ -1,0 +1,386 @@
+PCBNEW-LibModule-V1  2014-06-09 17:39:55
+# encoding utf-8
+Units mm
+$INDEX
+MICRO_SD_TFWF1
+SD_mirco
+sd_socket
+$EndINDEX
+$MODULE MICRO_SD_TFWF1
+Po 0 0 0 15 5395D400 00000000 ~~
+Li MICRO_SD_TFWF1
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -0.8 1 1 0 0.15 N V 21 N "MICRO_SD"
+T1 0 1.05 1 1 0 0.15 N V 21 N "VAL**"
+DS 0.9 7.8 2.8 9.4 0.15 21
+DS -7.15 7.8 -7.15 5.9 0.15 21
+DS 0.9 7.8 -7.15 7.8 0.15 21
+DS 2.8 9.4 7.15 9.4 0.15 21
+DS 7.15 5.9 7.15 9.4 0.15 21
+DS -7.15 -3.6 -7.15 3.9 0.15 21
+DS 7.15 3.9 7.15 -4 0.15 21
+DS 5.95 -5.1 2.7 -5.1 0.15 21
+$PAD
+Sh "10" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7.75 -4.6
+$EndPAD
+$PAD
+Sh "10" R 1.6 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.85 -4.85
+$EndPAD
+$PAD
+Sh "10" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7.75 4.9
+$EndPAD
+$PAD
+Sh "10" R 1.2 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.75 4.9
+$EndPAD
+$PAD
+Sh "9" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.55 -5.9
+$EndPAD
+$PAD
+Sh "8" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.45 -5.9
+$EndPAD
+$PAD
+Sh "7" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.35 -5.9
+$EndPAD
+$PAD
+Sh "6" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.25 -5.9
+$EndPAD
+$PAD
+Sh "5" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.15 -5.9
+$EndPAD
+$PAD
+Sh "4" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.05 -5.9
+$EndPAD
+$PAD
+Sh "3" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.05 -5.9
+$EndPAD
+$PAD
+Sh "2" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.15 -5.9
+$EndPAD
+$PAD
+Sh "1" R 0.7 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.25 -5.9
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -4.95 5.1
+$EndPAD
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 3.05 5.1
+$EndPAD
+$EndMODULE MICRO_SD_TFWF1
+$MODULE SD_mirco
+Po 0 0 0 15 53870D9B 00000000 ~~
+Li SD_mirco
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.05 -1.45 1 1 0 0.15 N I 21 N "SD_mirco"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DA 0 10 -5.5 6.05 1085 0.15 21
+DS 5.5 6.05 6.65 6.05 0.15 21
+DS 6.65 2.5 6.65 6.05 0.15 21
+DS -6.65 2.5 -6.65 6.05 0.15 21
+DS -6.65 -6.05 -6.65 0.25 0.15 21
+DS -6.65 6.05 -5.5 6.05 0.15 21
+DS 6.65 0.25 6.65 -6.05 0.15 21
+DS 6.65 -6.05 -6.65 -6.05 0.15 21
+$PAD
+Sh "1" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 008C8000
+Ne 0 ""
+Po 2.95 -7.05
+$EndPAD
+$PAD
+Sh "2" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.85 -7.05
+$EndPAD
+$PAD
+Sh "3" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -7.05
+$EndPAD
+$PAD
+Sh "4" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.35 -7.05
+$EndPAD
+$PAD
+Sh "5" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.45 -7.05
+$EndPAD
+$PAD
+Sh "6" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.55 -7.05
+$EndPAD
+$PAD
+Sh "7" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.65 -7.05
+$EndPAD
+$PAD
+Sh "8" R 0.7 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.75 -7.05
+$EndPAD
+$PAD
+Sh "9" R 0.85 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.35 -7.05
+$EndPAD
+$PAD
+Sh "10" R 0.785 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.2 -7.05
+$EndPAD
+$PAD
+Sh "11" R 1.2 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.7 1.35
+$EndPAD
+$PAD
+Sh "12" R 1.2 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.7 1.35
+$EndPAD
+$PAD
+Sh "" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -5 -3.45
+$EndPAD
+$PAD
+Sh "" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5 -3.45
+$EndPAD
+$EndMODULE SD_mirco
+$MODULE sd_socket
+Po 0 0 0 15 52A1AD43 00000000 ~~
+Li sd_socket
+Cd SD Card socket, 4UCON P/N 19607
+Sc 0
+AR 
+Op 0 0 0
+T0 0 17.00022 1.524 1.524 0 0.3048 N V 21 N "sd_socket"
+T1 0 -17.00022 1.524 1.524 0 0.3048 N V 21 N "J**"
+DS -14.2 11.5 -14.2 12.75 0.15 21
+DS -14.2 0 -14.2 9 0.15 21
+DS 14.2 12.5 14.2 12.75 0.15 21
+DS -11 -12.75 -11 -11.5 0.15 21
+DS 11 -12.75 11 -11.5 0.15 21
+DS 11 -11.5 -11 -11.5 0.15 21
+DS 14.2 -12.75 11 -12.75 0.15 21
+DS -9.90092 12.75 -14.2 12.75 0.15 21
+DS 14.2 12.75 9.90092 12.75 0.15 21
+DA 0 12.75 0 2.84 900 0.15 21
+DA 0 12.75 -9.90092 12.75 900 0.15 21
+DS 6.4008 -3.40106 -6.20014 -3.40106 0.15 21
+DS 8.30072 -1.89992 9.99998 12.75 0.15 21
+DA 6.59892 -1.69926 6.4008 -3.40106 900 0.15 21
+DS -8.30072 -1.69926 -9.99998 12.75 0.15 21
+DA -6.4008 -1.50114 -8.30072 -1.69926 900 0.15 21
+DS -14.2 -2.5 -14.2 -12.75 0.15 21
+DS -14.2 -12.75 -11 -12.75 0.15 21
+DS 14.2 -12.75 14.2 10 0.15 21
+$PAD
+Sh "9" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.35 -13.25
+$EndPAD
+$PAD
+Sh "1" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.85 -13.25
+$EndPAD
+$PAD
+Sh "2" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.35 -13.25
+$EndPAD
+$PAD
+Sh "3" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.85 -13.25
+$EndPAD
+$PAD
+Sh "4" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.65 -13.25
+$EndPAD
+$PAD
+Sh "5" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 -13.25
+$EndPAD
+$PAD
+Sh "6" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.65 -13.25
+$EndPAD
+$PAD
+Sh "7" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8.05 -13.25
+$EndPAD
+$PAD
+Sh "8" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.75 -13.25
+$EndPAD
+$PAD
+Sh "CD" R 1.1 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -12.25 -14.31544
+$EndPAD
+$PAD
+Sh "G" R 1.6 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 14.75 11.25
+$EndPAD
+$PAD
+Sh "COM" R 3.2 1.6002 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.15 -1.25
+$EndPAD
+$PAD
+Sh "WP" R 3.2 1.6002 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.15 10.25
+$EndPAD
+$PAD
+Sh "" C 1.30048 1.30048 0 0 0
+Dr 1.30048 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.8 -9.75
+$EndPAD
+$PAD
+Sh "" C 1.3 1.3 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.2 -9.75
+$EndPAD
+$SHAPE3D
+Na "walter/conn_misc/sd_socket.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE sd_socket
+$EndLIBRARY

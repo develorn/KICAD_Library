@@ -1,0 +1,197 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rfm70
+LIBS:bluetooth
+LIBS:DRILLS
+LIBS:FLASH_MEMORY
+LIBS:lm1117
+LIBS:lm2596
+LIBS:stm32
+LIBS:transil
+LIBS:tech-thing
+LIBS:USB_CONNECTORS
+LIBS:mcp73832
+LIBS:nrf24l01
+LIBS:tps61085
+LIBS:sma
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date "20 mar 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5150 2850 0    39   Input ~ 0
+RF_CE
+Text GLabel 6150 2850 2    39   Input ~ 0
+RF_CSN
+Text GLabel 5150 3050 0    39   Input ~ 0
+RF_MISO
+Text GLabel 6150 2950 2    39   Input ~ 0
+RF_MOSI
+Text GLabel 5150 2950 0    39   Input ~ 0
+RF_SCK
+Text GLabel 6150 3050 2    39   Input ~ 0
+RF_IRQ
+$Comp
+L CONN_4X2 P11
+U 1 1 5328462A
+P 5650 2900
+F 0 "P11" H 5650 3150 50  0000 C CNN
+F 1 "nRF24L01" V 5650 2900 40  0000 C CNN
+F 2 "pin_array_4x2" H 5650 3250 60  0000 C CNN
+F 3 "" H 5650 2900 60  0000 C CNN
+	1    5650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDRF #PWR083
+U 1 1 53284630
+P 4950 2700
+F 0 "#PWR083" H 4950 2700 40  0001 C CNN
+F 1 "GNDRF" H 4950 2630 40  0000 C CNN
+F 2 "~" H 4950 2700 60  0000 C CNN
+F 3 "~" H 4950 2700 60  0000 C CNN
+	1    4950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3,3VRF #PWR084
+U 1 1 53284636
+P 6150 2700
+F 0 "#PWR084" H 6150 2660 30  0001 C CNN
+F 1 "+3,3VRF" H 6150 2810 30  0000 C CNN
+F 2 "~" H 6150 2700 60  0000 C CNN
+F 3 "~" H 6150 2700 60  0000 C CNN
+	1    6150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P10
+U 1 1 5328463C
+P 5450 3400
+F 0 "P10" V 5400 3400 40  0000 C CNN
+F 1 "RF_DIST" V 5500 3400 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" H 5250 3150 60  0000 C CNN
+F 3 "" H 5450 3400 60  0000 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P12
+U 1 1 53284642
+P 5850 3400
+F 0 "P12" V 5800 3400 40  0000 C CNN
+F 1 "RF_DIST" V 5900 3400 40  0000 C CNN
+F 2 "PIN_ARRAY_2X1" H 5650 3650 60  0000 C CNN
+F 3 "" H 5850 3400 60  0000 C CNN
+	1    5850 3400
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6200 3300
+NoConn ~ 6200 3500
+NoConn ~ 5100 3300
+NoConn ~ 5100 3500
+Text Notes 4550 2400 0    60   ~ 0
+SOCKET FOR nRF24L01 MODULE
+NoConn ~ 5550 3850
+$Comp
+L SMA J1
+U 1 1 5328464E
+P 5700 4150
+F 0 "J1" H 5825 4465 60  0000 C CNN
+F 1 "SMA" H 5890 4390 60  0000 C CNN
+F 2 "SMA" H 5875 4320 50  0000 C CNN
+F 3 "" H 5700 4150 60  0000 C CNN
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5750 4050
+NoConn ~ 5700 4050
+NoConn ~ 5650 4050
+NoConn ~ 5600 4050
+Text Notes 6450 2750 0    60   ~ 0
++3.3V
+Text Notes 6500 2900 0    60   ~ 0
+CSN
+Text Notes 6500 3000 0    60   ~ 0
+MOSI
+Text Notes 6500 3100 0    60   ~ 0
+IRQ
+Text Notes 4600 2800 0    60   ~ 0
+GND
+Text Notes 4600 2900 0    60   ~ 0
+CE
+Text Notes 4600 3000 0    60   ~ 0
+SCK
+Text Notes 4600 3100 0    60   ~ 0
+MISO
+Wire Wire Line
+	4950 2700 4950 2600
+Wire Wire Line
+	4950 2600 5150 2600
+Wire Wire Line
+	5150 2600 5150 2750
+Wire Wire Line
+	5150 2750 5250 2750
+Wire Wire Line
+	6150 2700 6150 2750
+Wire Wire Line
+	6150 2750 6050 2750
+Wire Wire Line
+	5250 2850 5150 2850
+Wire Wire Line
+	5150 2950 5250 2950
+Wire Wire Line
+	5250 3050 5150 3050
+Wire Wire Line
+	6050 2850 6150 2850
+Wire Wire Line
+	6150 2950 6050 2950
+Wire Wire Line
+	6050 3050 6150 3050
+Wire Notes Line
+	4450 2200 6900 2200
+Wire Notes Line
+	4450 4300 6900 4300
+Wire Notes Line
+	6900 4300 6900 2200
+Wire Notes Line
+	4450 4300 4450 2200
+$EndSCHEMATC

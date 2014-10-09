@@ -1,0 +1,48 @@
+PCBNEW-LibModule-V1  2014-09-08 15:10:19
+# encoding utf-8
+Units mm
+$INDEX
+XT-324
+$EndINDEX
+$MODULE XT-324
+Po 0 0 0 15 540DAA98 00000000 ~~
+Li XT-324
+Sc 0
+AR 
+Op 0 0 0
+T0 0.01 -3.38 1 1 0 0.15 N V 21 N "XT-324"
+T1 0.01 3.4 1 1 0 0.15 N V 21 N "VAL**"
+DS 2.31 -1.65 2.31 1.65 0.15 21
+DS -2.31 -1.65 2.31 -1.65 0.15 21
+DS -2.31 1.65 -2.31 -1.65 0.15 21
+DS -2.31 1.65 2.31 1.65 0.15 21
+$PAD
+Sh "1" R 1.5 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.3 0.8
+$EndPAD
+$PAD
+Sh "2" R 1.5 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.3 0.8
+$EndPAD
+$PAD
+Sh "4" R 1.5 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.3 -0.8
+$EndPAD
+$PAD
+Sh "3" R 1.5 1.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.3 -0.8
+$EndPAD
+$EndMODULE XT-324
+$EndLIBRARY

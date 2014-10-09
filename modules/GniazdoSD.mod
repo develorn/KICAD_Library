@@ -1,0 +1,111 @@
+PCBNEW-LibModule-V1  2014-04-29 14:21:16
+# encoding utf-8
+Units mm
+$INDEX
+GniazdoSD
+$EndINDEX
+$MODULE GniazdoSD
+Po 0 0 0 15 535F9341 00000000 ~~
+Li GniazdoSD
+Sc 0
+AR 
+Op 0 0 0
+T0 -11.45 -7.25 1 1 0 0.15 N V 21 N "Gniazdosd"
+T1 14.3 -6.8 1 1 0 0.15 N V 21 N "VAL**"
+DS -7.5 -7.45 -7.5 7.35 0.15 21
+DS -7.5 7.35 7.3 7.35 0.15 21
+DS 7.3 7.35 7.3 -7.45 0.15 21
+DS 7.3 -7.45 -7.5 -7.45 0.15 21
+$PAD
+Sh "10" R 2 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -8.6 -2.7
+$EndPAD
+$PAD
+Sh "10" R 2 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.4 -2.7
+$EndPAD
+$PAD
+Sh "10" R 2 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.85 6.65
+$EndPAD
+$PAD
+Sh "10" R 2 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 8.4 6.7
+$EndPAD
+$PAD
+Sh "1" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.35 8.2
+$EndPAD
+$PAD
+Sh "2" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.25 8.2
+$EndPAD
+$PAD
+Sh "3" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.15 8.2
+$EndPAD
+$PAD
+Sh "4" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.05 8.2
+$EndPAD
+$PAD
+Sh "5" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.95 8.2
+$EndPAD
+$PAD
+Sh "6" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.85 8.2
+$EndPAD
+$PAD
+Sh "7" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 8.2
+$EndPAD
+$PAD
+Sh "8" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.35 8.2
+$EndPAD
+$PAD
+Sh "9" R 0.7 1.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.45 8.2
+$EndPAD
+$EndMODULE GniazdoSD
+$EndLIBRARY

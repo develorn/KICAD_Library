@@ -1,0 +1,30 @@
+PCBNEW-LibModule-V1  2014-05-27 13:43:14
+# encoding utf-8
+Units mm
+$INDEX
+SHUNT_PCB_0.4mOhm
+$EndINDEX
+$MODULE SHUNT_PCB_0.4mOhm
+Po 0 0 0 15 53847A4E 00000000 ~~
+Li SHUNT_PCB_0.4mOhm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.2 1 1 0 0.15 N V 21 N "SHUNT_PCB_0.4mOhm"
+T1 0 -3.2 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 3.81 3.81 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -3.15 0
+$EndPAD
+$PAD
+Sh "2" C 3.81 3.81 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 3.15 0
+$EndPAD
+$EndMODULE SHUNT_PCB_0.4mOhm
+$EndLIBRARY

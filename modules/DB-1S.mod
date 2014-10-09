@@ -1,0 +1,50 @@
+PCBNEW-LibModule-V1  2013-11-15 11:22:05
+# encoding utf-8
+Units mm
+$INDEX
+DB-1S
+$EndINDEX
+$MODULE DB-1S
+Po 0 0 0 15 5285F5C7 00000000 ~~
+Li DB-1S
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "DB-1S"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+T2 2.286 -2.54 1 1 0 0.15 N V 21 N "-"
+T2 2.286 2.54 1 1 0 0.15 N V 21 N "+"
+DS -3.4 -4.25 3.4 -4.25 0.15 21
+DS 3.4 -4.25 3.4 4.25 0.15 21
+DS 3.4 4.25 -3.4 4.25 0.15 21
+DS -3.4 4.25 -3.4 -4.25 0.15 21
+$PAD
+Sh "1" R 2.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.2 -2.6
+$EndPAD
+$PAD
+Sh "3" R 2.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.2 2.6
+$EndPAD
+$PAD
+Sh "2" R 2.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.2 -2.6
+$EndPAD
+$PAD
+Sh "4" R 2.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.2 2.6
+$EndPAD
+$EndMODULE DB-1S
+$EndLIBRARY
