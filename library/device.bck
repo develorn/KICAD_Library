@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2014-07-08 12:35:58
+EESchema-DOCLIB  Version 2.0  Date: 2014-09-18 11:15:46
 #
 $CMP 7SEGM
 D Afficheur Leds 7 segments
@@ -116,6 +116,11 @@ $ENDCMP
 $CMP FUSE2
 D Resistance
 K R DEV
+$ENDCMP
+#
+$CMP GREATZ
+D Pont de Diodes
+K Pont Diode
 $ENDCMP
 #
 $CMP LED
