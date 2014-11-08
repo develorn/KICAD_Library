@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  2014-05-28 18:12:05
+PCBNEW-LibModule-V1  2014-11-06 13:46:25
 # encoding utf-8
 Units mm
 $INDEX
 SW_PUSH_6x6
+microswitch_tht
 $EndINDEX
 $MODULE SW_PUSH_6x6
 Po 0 0 0 15 53860A2A 00000000 ~~
@@ -46,4 +47,46 @@ Ne 0 ""
 Po -3.81 2.54
 $EndPAD
 $EndMODULE SW_PUSH_6x6
+$MODULE microswitch_tht
+Po 0 0 0 15 545B6D84 00000000 ~~
+Li microswitch_tht
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5 1 1 0 0.15 N V 21 N "microswitch_tht"
+T1 0 4.5 1 1 0 0.15 N V 21 N "VAL**"
+DC 0 0 0 -1.5 0.15 21
+DS -1.9 -2.5 1.9 -2.5 0.15 21
+DS 1.9 -2.5 1.9 2.5 0.15 21
+DS 1.9 2.5 -1.9 2.5 0.15 21
+DS -1.9 2.5 -1.9 -2.5 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.25 -2.25
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.25 -2.25
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.25 2.25
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.25 2.25
+$EndPAD
+$EndMODULE microswitch_tht
 $EndLIBRARY
